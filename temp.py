@@ -1,3 +1,7 @@
+#VERY IMPORTANT: if you copy my programme don't forget to change the start and end date of the programme
+
+#We import what we need
+
 import numpy as np
 import datetime
 import os
@@ -62,7 +66,7 @@ characters = ":" #define a variable with the character ":" for the following
 
 for event in ress:
 #I'm saying that for any event that starts with "11:42" I do what's in the loop
-        if event.startswith('11:42'): 
+        if event.startswith('11:42'):  #WARNING: It is this date that you must change according to the information in your file
 #Create variables and reset them to 0 
             seq = ""
             heure1 = ""
@@ -149,6 +153,7 @@ for event in ress:
                     length=length1[2] 
                     length = length.replace(characters,"") #I replace "characters" with " " to avoid the spreadsheet writing as a date
             if event.startswith("11:42:55.536521") :  #When the program reaches the last line of the text file then ...
+#WARNING: It is this date that you must change according to the information in your file
                 prog=0    #To tell him to stop spinning
             evenement=heure1+";"+nomip+ ";" +port+ ";" + p2+ ";"+flag+ ";" +seq+ ";" +ack+ ";" +win+ ";" +options+ ";" +length
             f.write(evenement + "\n") #I write "event" in the csv and return to the line
@@ -210,7 +215,7 @@ fig.savefig("destinationbar.png", dpi=300, bbox_inches="tight")
 
 
 x=["184.107.43.74","BP-Linux8.34862:","mauves.univ-st-etienne.fr","BP-Linux8.40678:","BP-Linux8.40682:","www.agloroanne.fr","BP-Linux8.53324:","BP-Linux8.53325:","BP-Linux8.53328:","BP-Linux8.53329:", "192.168.190.130"]
-y = [2000,827,251,383,400,1022,499,385,352,324,66]
+y = [2000,827,251,383,400,1022,499,385,352,324,6]
 fig, ax = plt.subplots(figsize=(20, 10))
 
 ax.set_yticks(np.arange(0, 4000, 250))
@@ -223,10 +228,7 @@ ax.bar(x, y)
 fig.savefig("sourcebar.png", dpi=300, bbox_inches="tight")
 
 
+
 #Pour fermer les fichier
 plt.show()            
 f.close()
-
-
-
-

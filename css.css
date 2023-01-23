@@ -8,13 +8,13 @@
 }
 
 .img2{
-	  position : absolute;
+
 	  outline: none;
 	  border-radius: 4%;
 	  resize: none;
-	  width: 39%;
+	  width: 45%;
 	  align-items: center;
-	  left :50%;
+	  right : 30%;
 
 }
 .img1{
@@ -22,7 +22,7 @@
 	  outline: none;
 	  border-radius: 4%;
 	  resize: none;
-	  width: 39%;
+	  width: 41%;
 	  align-items: center;
 	  right : 30%;
 
