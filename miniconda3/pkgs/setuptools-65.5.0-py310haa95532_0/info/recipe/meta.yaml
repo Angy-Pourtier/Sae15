@@ -1,0 +1,72 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# C:\b\abs_b5suoi08t0\clone\recipe, last modified Mon Oct 31 17:08:19 2022
+# ------------------------------------------------
+
+package:
+  name: setuptools
+  version: 65.5.0
+source:
+  patches:
+    - patches/0002-disable-downloads-inside-conda-build.patch
+    - patches/0021-Add-d1trimfile-SRC_DIR-to-make-pdbs-more-relocatable.patch
+  sha256: 512e5536220e38146176efb833d4a62aa726b7bbff82cfbc8ba9eaa3996e0b17
+  url: https://pypi.io/packages/source/s/setuptools/setuptools-65.5.0.tar.gz
+build:
+  number: '0'
+  string: py310haa95532_0
+requirements:
+  build:
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+  host:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2022.10.11 haa95532_0
+    - certifi 2022.9.24 py310haa95532_0
+    - libffi 3.4.2 hd77b12b_4
+    - openssl 1.1.1q h2bbff1b_0
+    - python 3.10.6 hbb2ffb3_1
+    - sqlite 3.39.3 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2022e h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wincertstore 0.2 py310haa95532_2
+    - xz 5.2.6 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - certifi >=2016.9.26
+    - python >=3.10,<3.11.0a0
+    - wincertstore >=0.2
+test:
+  imports:
+    - pkg_resources
+    - setuptools
+about:
+  description: 'Setuptools is a fully-featured, actively-maintained, and stable library
+
+    designed to facilitate packaging Python projects.
+
+    '
+  dev_url: https://github.com/pypa/setuptools
+  doc_source_url: https://github.com/pypa/setuptools/tree/master/docs
+  doc_url: https://setuptools.pypa.io/en/latest/
+  home: https://github.com/pypa/setuptools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  license_url: https://github.com/pypa/setuptools/blob/main/LICENSE
+  summary: Download, build, install, upgrade, and uninstall Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: b5579484-4696-417e-b50f-f8c87446e874
+  recipe-maintainers:
+    - isuruf
+    - jakirkham
+    - msarahan
+    - nicoddemus
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/setuptools-feedstock.git
+  sha: bdafbdc52e8fd4fba83b4015ef9b163b6ebc9f16

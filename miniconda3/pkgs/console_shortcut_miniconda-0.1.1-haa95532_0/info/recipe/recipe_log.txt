@@ -1,0 +1,17 @@
+commit 6739e30ff5e5301ad54406aff4bab181a76aea1c
+Author: Marco Esters <mesters@anaconda.com>
+Date:   Tue Dec 20 14:37:30 2022 -0800
+
+    Change package name
+
+commit 8dc75de614cbd85c6e25c58031e3bd9745675779
+Author: Marco Esters <mesters@anaconda.com>
+Date:   Tue Dec 20 14:33:54 2022 -0800
+
+    Initialize feedstock
+
+commit c9f7a4691b9c6957a484c2701d75667832a95b64
+Author: Marco Esters <mesters@anaconda.com>
+Date:   Tue Dec 20 14:10:15 2022 -0800
+
+    Add license

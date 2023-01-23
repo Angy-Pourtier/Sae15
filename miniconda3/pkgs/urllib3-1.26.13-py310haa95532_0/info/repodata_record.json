@@ -1,0 +1,30 @@
+{
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "brotlipy >=0.6.0",
+    "certifi",
+    "cryptography >=1.3.4",
+    "idna >=2.0.0",
+    "pyopenssl >=0.14",
+    "pysocks >=1.5.6,<2.0,!=1.5.7",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "urllib3-1.26.13-py310haa95532_0.conda",
+  "legacy_bz2_md5": "37e4b897bf3abc12c7495bc45ca37a2d",
+  "legacy_bz2_size": 185764,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "961f4f3a9926ccedd23b398fd8352fc5",
+  "name": "urllib3",
+  "sha256": "a0a516f7995f1fff8e285ed5cf3c464d83da354849e94b846e6b034086806e86",
+  "size": 199334,
+  "subdir": "win-64",
+  "timestamp": 1670527160511,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/urllib3-1.26.13-py310haa95532_0.conda",
+  "version": "1.26.13"
+}

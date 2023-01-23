@@ -1,0 +1,28 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# C:\ci\containers\00003qtu9mg\tmp\build\80754af9\rsync-recipes\powershell_shortcut_miniconda-0.0.1-on-winbuilder, last modified Tue Dec 20 16:14:24 2022
+# ------------------------------------------------
+
+package:
+  name: powershell_shortcut_miniconda
+  version: 0.0.1
+build:
+  number: '0'
+  string: haa95532_0
+requirements:
+  build: []
+  run:
+    - python
+  run_constrained:
+    - anaconda-navigator >=1.9.8
+app:
+  entry: start powershell.exe -ExecutionPolicy ByPass -NoExit -Command  "& '{CONDA_ROOT_PREFIX}\\shell\\condabin\\conda-hook.ps1'
+    ; conda activate '{CONDA_PREFIX}'"
+  summary: Anaconda Powershell Prompt
+  type: desk
+about:
+  license: BSD-3-Clause
+  summary: Powershell shortcut creator for Windows (using menuinst)
+extra:
+  copy_test_source_files: true
+  final: true

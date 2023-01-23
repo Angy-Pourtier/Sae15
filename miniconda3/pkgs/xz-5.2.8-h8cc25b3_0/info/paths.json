@@ -1,0 +1,137 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/liblzma.dll",
+      "path_type": "hardlink",
+      "sha256": "eb5b3c473e7295a5193be0938b2ce77bd0cf023e31ed17fe16014ebced665527",
+      "size_in_bytes": 154624
+    },
+    {
+      "_path": "Library/include/lzma.h",
+      "path_type": "hardlink",
+      "sha256": "d831a8daf0b288b4bc512ba09eef2d8a6c519f1be679ea1d6df7483726376070",
+      "size_in_bytes": 9922
+    },
+    {
+      "_path": "Library/include/lzma/base.h",
+      "path_type": "hardlink",
+      "sha256": "c2cce58812dc1c93c8b20c2c12cd9259e7a9103390b51614a4fdaf8f21f9b3ed",
+      "size_in_bytes": 25414
+    },
+    {
+      "_path": "Library/include/lzma/bcj.h",
+      "path_type": "hardlink",
+      "sha256": "485ee1ac185747b6e5324094aa462af194ba3a22a0206314e25f70423045e43d",
+      "size_in_bytes": 2630
+    },
+    {
+      "_path": "Library/include/lzma/block.h",
+      "path_type": "hardlink",
+      "sha256": "d62b1e56044a7be0991f1c421c8da1b3dba4b4b347583eac7d8a0f87300e3058",
+      "size_in_bytes": 21929
+    },
+    {
+      "_path": "Library/include/lzma/check.h",
+      "path_type": "hardlink",
+      "sha256": "79ef75b06fe389ccbc47ebeea1bb704157a58fe9710ddfbac8a62035359f9ae1",
+      "size_in_bytes": 4255
+    },
+    {
+      "_path": "Library/include/lzma/container.h",
+      "path_type": "hardlink",
+      "sha256": "1359e47405681875971432bf63b8459ec937f5678a6bf6d5a5f7bdb2c272083d",
+      "size_in_bytes": 25527
+    },
+    {
+      "_path": "Library/include/lzma/delta.h",
+      "path_type": "hardlink",
+      "sha256": "db9db049ab07363921bf19320174afbab16a1b4d401f797a5b2232dcb89b9d64",
+      "size_in_bytes": 1865
+    },
+    {
+      "_path": "Library/include/lzma/filter.h",
+      "path_type": "hardlink",
+      "sha256": "ffa9f91ff2723d0910e5ba95329379931221c260ab44141f85e5c5366bc0cba3",
+      "size_in_bytes": 16726
+    },
+    {
+      "_path": "Library/include/lzma/hardware.h",
+      "path_type": "hardlink",
+      "sha256": "7c9c7fdd29650a730e59281ea38e3826d94b518fa7e23573b9303ac8f3421083",
+      "size_in_bytes": 2604
+    },
+    {
+      "_path": "Library/include/lzma/index.h",
+      "path_type": "hardlink",
+      "sha256": "9eb7451f4d8de7d51a17585b7a86c3b4eb02d00d7e7fc1c390255e34231f3516",
+      "size_in_bytes": 23491
+    },
+    {
+      "_path": "Library/include/lzma/index_hash.h",
+      "path_type": "hardlink",
+      "sha256": "0840c2ae8dedc05a7ffe1597ead131532a8dc03521728d1d38e55da0fa769831",
+      "size_in_bytes": 3914
+    },
+    {
+      "_path": "Library/include/lzma/lzma12.h",
+      "path_type": "hardlink",
+      "sha256": "caf8948b9306d508026cc3bbadea579eb8e75a24c444fdbe9986a4cc01a7b362",
+      "size_in_bytes": 14744
+    },
+    {
+      "_path": "Library/include/lzma/stream_flags.h",
+      "path_type": "hardlink",
+      "sha256": "beba70fa9d83dc6a7fcfae9b1f8d07b3b5acbbdc789f008e63da4206e2434acc",
+      "size_in_bytes": 8253
+    },
+    {
+      "_path": "Library/include/lzma/version.h",
+      "path_type": "hardlink",
+      "sha256": "9037c8fdd396cc3ae53737f64feb63b4116555f42ce5b20be62e1801fea4d4ca",
+      "size_in_bytes": 3497
+    },
+    {
+      "_path": "Library/include/lzma/vli.h",
+      "path_type": "hardlink",
+      "sha256": "1efbbbfc93d109aff5bc6ec025437bbf8b99410975d97244781e9a163fe50f4d",
+      "size_in_bytes": 6622
+    },
+    {
+      "_path": "Library/lib/cmake/liblzma/liblzma-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "8afbb9427085c30551480e7d1a66569211919fed3cce4574d5816a75db0dea06",
+      "size_in_bytes": 1773
+    },
+    {
+      "_path": "Library/lib/cmake/liblzma/liblzma-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "e14282cd280a648d988a0454402ff3170da9315a550ef13857806dfc4086bacd",
+      "size_in_bytes": 624
+    },
+    {
+      "_path": "Library/lib/cmake/liblzma/liblzma-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "0665a24e0912a28bbabf020ee2b5eae587cc9871dab8a60d97965b438ac82abb",
+      "size_in_bytes": 908
+    },
+    {
+      "_path": "Library/lib/cmake/liblzma/liblzma-targets.cmake",
+      "path_type": "hardlink",
+      "sha256": "065cb628f7358099cb2ccd05819f237f9680cec00e1cc513b90bee5ed54708ec",
+      "size_in_bytes": 3539
+    },
+    {
+      "_path": "Library/lib/liblzma.lib",
+      "path_type": "hardlink",
+      "sha256": "b44bcd1b2964d07fe4dafb194f70c64e9eb9ba8712d094099fe9701f82080878",
+      "size_in_bytes": 23762
+    },
+    {
+      "_path": "Library/lib/liblzma_static.lib",
+      "path_type": "hardlink",
+      "sha256": "7e0beddcbf0d5ccc35e08c21e644cdb14917715c3f0add9a461d526ab9f19da1",
+      "size_in_bytes": 440548
+    }
+  ],
+  "paths_version": 1
+}

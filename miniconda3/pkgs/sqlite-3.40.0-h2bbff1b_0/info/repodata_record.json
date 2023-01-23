@@ -1,0 +1,25 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "sqlite-3.40.0-h2bbff1b_0.conda",
+  "legacy_bz2_md5": "befb67213d17c1ea33b06a2c202551f0",
+  "legacy_bz2_size": 1307822,
+  "license": "blessing",
+  "license_family": "Other",
+  "md5": "0dbcc7f2175e0cee59218487d619599f",
+  "name": "sqlite",
+  "sha256": "66dc806320864e5b71d5c7abb370a74da1586764c675515a83db97c4409f51ab",
+  "size": 912665,
+  "subdir": "win-64",
+  "timestamp": 1669138341647,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.40.0-h2bbff1b_0.conda",
+  "version": "3.40.0"
+}

@@ -1,0 +1,61 @@
+.img{
+	 outline: none;
+	  border-radius: 4%;
+	  resize: none;
+	  width: 39%;
+	  align-items: center;
+
+}
+
+.img2{
+	  position : absolute;
+	  outline: none;
+	  border-radius: 4%;
+	  resize: none;
+	  width: 39%;
+	  align-items: center;
+	  left :50%;
+
+}
+.img1{
+
+	  outline: none;
+	  border-radius: 4%;
+	  resize: none;
+	  width: 39%;
+	  align-items: center;
+	  right : 30%;
+
+}
+
+span{
+   align-items: center;
+   text-align: center;	
+	justify-content: center;
+	font-weight: bolder;
+}
+
+.titre {
+	font-size: 1000%;
+	font-variant: small-caps;
+}
+
+.center{
+	align-items: center;
+    text-align: center;	
+	justify-content: center;
+	font-weight: bolder;
+	
+}
+
+.center1{
+	align-items: left;
+    text-align: left;	
+	justify-content: left;
+	font-weight: bolder;
+	
+}
+
+h3{
+	text-decoration : underline
+}

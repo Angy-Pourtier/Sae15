@@ -1,0 +1,1 @@
+["hypothesis >=1.11.4,!=3.79.2", "iso8601", "pytest-xdist", "pytest-subtests", "cryptography-vectors 38.0.1.*", "pytest-benchmark", "pip", "pytest >=6.2.0", "pretend", "pytz"]
