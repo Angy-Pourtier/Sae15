@@ -10,6 +10,7 @@ import typing
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 a = int 
 a = 0
 
@@ -42,6 +43,23 @@ k = 0
 
 z = int
 z = 0
+
+j = int 
+j = 0
+
+g = int
+g= 0
+
+p = int 
+p = 0
+
+r = int
+r= 0
+
+s = int 
+s = 0
+
+
 
 try:
     with open("fichier.txt", encoding="utf8") as fh:
@@ -195,6 +213,22 @@ for event in ress:
            
             if nomip=="192.168.190.130":
                 z = z + 1
+                
+               #For the flag 
+            if flag==".":
+                j = j + 1
+                
+            if flag=="F.":
+                g = g + 1
+                
+            if flag=="P.":
+                p = p + 1
+                
+            if flag=="S":
+                r = r + 1 
+           
+            if flag=="S.":
+                s = s + 1
 
 
 #Here I will enter if I want it to be on the x-axis and y-axis
@@ -229,6 +263,21 @@ fig.savefig("sourcebar.png", dpi=300, bbox_inches="tight")
 
 
 
-#Pour fermer les fichier
+
+
+x=[".","F.","P.","S","S."]
+y = [j,g,p,r,s]
+fig, ax = plt.subplots(figsize=(20, 10))
+
+ax.set_yticks(np.arange(0, 7000, 400))
+ax.set_title( "Flag", color="#000000", y=1.05)
+
+
+ax.bar(x, y)
+
+                                                              
+fig.savefig("Flag.png", dpi=300, bbox_inches="tight")
+
+#To close the files
 plt.show()            
 f.close()
