@@ -167,7 +167,7 @@ for event in ress:
             if nomip=="mauves.univ-st-etienne.fr":
                 c = c + 1
                 
-            if nomip=="ns1.lan.rt.":
+            if nomip=="ns1.lan.rt":
                 d = d + 1
                 
             if nomip=="par10s38-in-f3.1e100.net":
@@ -185,7 +185,7 @@ for event in ress:
             if nomip=="par21s23-in-f3.1e100.net":
                 i = i + 1
                 
-            if nomip=="www.agloroanne.fr":
+            if nomip=="www.aggloroanne.fr":
                 k = k + 1 
            
             if nomip=="192.168.190.130":
@@ -210,7 +210,7 @@ fig.savefig("destinationbar.png", dpi=300, bbox_inches="tight")
 
 
 x=["184.107.43.74","BP-Linux8.34862:","mauves.univ-st-etienne.fr","BP-Linux8.40678:","BP-Linux8.40682:","www.agloroanne.fr","BP-Linux8.53324:","BP-Linux8.53325:","BP-Linux8.53328:","BP-Linux8.53329:", "192.168.190.130"]
-y = [2000,827,251,383,400,1022,499,385,352,324,6]
+y = [2000,827,251,383,400,1022,499,385,352,324,66]
 fig, ax = plt.subplots(figsize=(20, 10))
 
 ax.set_yticks(np.arange(0, 4000, 250))
@@ -221,7 +221,6 @@ ax.bar(x, y)
 
                                                               
 fig.savefig("sourcebar.png", dpi=300, bbox_inches="tight")
-
 
 
 #Pour fermer les fichier
